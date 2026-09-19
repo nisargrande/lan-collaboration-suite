@@ -50,36 +50,17 @@ The suite follows a classic **client-server model**, with the server acting as a
 
 ## 📸 Screenshots
 
-### Video Calling
-Live multi-participant video grid with mic/video/share controls.
+Below are various screenshots showcasing the features of the LAN Collaboration Suite, including video calling, real-time chat, file transfer, screen sharing, and the server activity log.
 
-![Video call](assets/01-video-call.jpeg)
-![Video call alternate view](assets/02-video-call-alt.jpeg)
-
-### Real-Time Chat
-Connection status, system events, and live messages between participants.
-
-![Real-time chat](assets/03-realtime-chat.jpeg)
-
-### File Transfer
-Incoming transfer requests are confirmed before download, saved via a native file dialog, and logged once complete.
-
-![Incoming file transfer request](assets/04-file-transfer-request.jpeg)
-![Save file dialog](assets/05-file-save-dialog.jpeg)
-![File received via P2P](assets/06-file-transfer-received.jpeg)
-
-### Screen Sharing
-A presenter's screen — including live browser tabs and search activity — is mirrored to all viewers in the call.
-
-![Screen share - new tab](assets/07-screen-share-newtab.jpeg)
-![Screen share - search results 1](assets/08-screen-share-search-1.jpeg)
-![Screen share - search results 2](assets/09-screen-share-search-2.jpeg)
-![Screen share - image results](assets/10-screen-share-images.jpeg)
-
-### Server Activity Log
-The server-side console tracks every client connection, chat message, and file relay in real time.
-
-![Server activity log](assets/11-server-activity-log.jpeg)
+<p align="center">
+  <img src="images/1.jpeg" width="45%">
+  <img src="images/2.jpeg" width="45%">
+  <img src="images/3.jpeg" width="45%">
+  <img src="images/4.jpeg" width="45%">
+  <img src="images/5.jpeg" width="45%">
+  <img src="images/6.jpeg" width="45%">
+  <img src="images/7.jpeg" width="45%">
+</p>
 
 ---
 
@@ -125,7 +106,7 @@ All clients must be on the same local network as the server.
 ├── server.py     # CollaborationServer — connection handling, relaying, logging
 ├── client.py     # CollaborationClient + ModernClientGUI — networking & Tkinter UI
 ├── config.py     # Ports, buffer sizes, media settings, protocol message constants
-└── assets/       # Screenshots used in this README
+└── images/       # Screenshots used in this README
 ```
 
 ---
